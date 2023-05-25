@@ -42,4 +42,4 @@ DELETE / - Delete data.
 ## Database
 The project utilizes PostgresSQL as the database. The necessary database migrations are managed using Flyway.
 
-To [install PostgresSQL])(https://www.postgresql.org/download/) you can install here.
+To [install PostgresSQL](https://www.postgresql.org/download/) you can install here.
