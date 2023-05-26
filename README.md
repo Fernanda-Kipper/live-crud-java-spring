@@ -50,7 +50,7 @@ The project with docker installed run the command
 ```markdown
 docker-compose up
 ```
-run the application and access http://localhost:15432/
-Enter the email and password that is in the docker code.
+Run the application and access http://localhost:15432/
+Enter the email and password that is in the Docker code.
 
 To [install Docker](https://www.docker.com/products/docker-desktop/) you can install here.
