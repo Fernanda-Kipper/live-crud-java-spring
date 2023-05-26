@@ -43,3 +43,14 @@ DELETE / - Delete data.
 The project utilizes PostgresSQL as the database. The necessary database migrations are managed using Flyway.
 
 To [install PostgresSQL](https://www.postgresql.org/download/) you can install here.
+
+## Docker
+The project with docker installed run the command
+
+```markdown
+docker-compose up
+```
+run the application and access http://localhost:15432/
+Enter the email and password that is in the docker code.
+
+To[install Docker](https://www.docker.com/products/docker-desktop/) you can install here.
