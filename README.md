@@ -15,7 +15,7 @@ This project was build during a [live in my Youtube Channel](https://www.youtube
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Fernanda-Kipper/live-crud-java-spring.git
+$ git clone https://github.com/Fernanda-Kipper/live-crud-java-spring.git
 ```
 
 2. Install dependencies with Maven
@@ -40,17 +40,20 @@ DELETE /product/{id} - Inactivate data.
 ```
 
 ## Database
-The project utilizes PostgresSQL as the database. The necessary database migrations are managed using Flyway.
+The project uses PostgresSQL as the database. The necessary database migrations are managed using Flyway.
 
-To [install PostgresSQL](https://www.postgresql.org/download/) you can install here.
+To install PostgresSQL locally you can [click here](https://www.postgresql.org/download/).
 
 ## Docker
-The project with docker installed run the command
 
-```markdown
-docker-compose up
+You can run this project with Docker by running the following command:
+
+
+```bash
+$ docker-compose up
 ```
-Run the application and access http://localhost:15432/
-Enter the email and password that is in the Docker code.
+Run the application and access http://localhost:15432
 
-To [install Docker](https://www.docker.com/products/docker-desktop/) you can install here.
+Enter the email and password configured in [Docker file](./docker-compose.yml).
+
+To install Docker locally you can [click here](https://www.docker.com/products/docker-desktop/).
