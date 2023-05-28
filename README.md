@@ -30,13 +30,13 @@ git clone https://github.com/Fernanda-Kipper/live-crud-java-spring.git
 The API provides the following endpoints:
 
 ```markdown
-GET / - Retrieve a list of all data.
+GET /product - Retrieve a list of all data.
 
-POST / - Register a new data.
+POST /product - Register a new data.
 
-PUT / - Alter data.
+PUT /product - Alter data.
 
-DELETE / - Delete data.
+DELETE /product/{id} - Inactivate data.
 ```
 
 ## Database
